@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../Components/NavBar.module.css";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaShoppingCart,FaUser,FaHeart} from "react-icons/fa";
 import { useState, useRef, useEffect } from "react";
 import { Links } from "./Links";
 import { NavLink } from "react-router-dom";
@@ -22,7 +22,7 @@ export const NavBar = () => {
         <div className={`${styles.NavContainer}`}>
           <div className={`${styles.NavLogo}`}>
             <img
-              src="images/LogoImg.webp"
+              src="images/NavBar/LogoImg.webp"
               alt="Logo"
               className={`${styles.Logo}`}
             />
@@ -39,15 +39,34 @@ export const NavBar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <NavLink to={url} className={({isActive})=>
-                      isActive ? "active EachLink" : "EachLink"
-                    }>
+                    <NavLink
+                      to={url}
+                      className={({ isActive }) =>
+                        isActive ? "active EachLink" : "EachLink"
+                      }
+                    >
                       {text}
                     </NavLink>
                   </li>
                 );
               })}
             </ul>
+          </div>
+          <div className={`${styles.ThreeLinks}`}>
+            <div>
+              <FaUser className={`${styles.FontIcon}`} />
+              <p>User</p>
+            </div>
+            <div>
+           <FaHeart className={`${styles.FontIcon}`}/>
+           <p>WishList</p>
+            </div>
+            <div>
+              <FaShoppingCart className={`${styles.FontIcon}`} />
+              <p>Cart</p>
+            </div>
+            
+            
           </div>
         </div>
       </nav>

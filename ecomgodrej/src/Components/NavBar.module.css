@@ -6,91 +6,110 @@
   box-sizing: border-box;
 }
 nav {
-    background: rgb(173, 231, 217);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-.Logo{
-    height: 3.5rem;
+  background-color: rgb(200, 193, 193);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  
 }
-.NavLogo{
+
+.Logo {
+  height: 3.5rem;
+}
+.NavLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.CartBtn
+{
+  font-size: 1.5rem;
+  color: rgb(21, 123, 232);
+  display: none;
+}
+.ToggleBtn {
+  border-color: transparent;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: rgb(21, 123, 232);
+  transition: all 0.3s linear;
+}
+.ToggleBtn:hover {
+  color: rgb(98, 162, 232);
+  transform: rotate(90deg);
+}
+.ThreeLinks {
+  display: none;
+}
+li {
+  list-style: none;
+}
+.EachLink {
+  color: #023d9d;
+  font-size: 1.15rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: all 0.3s linear;
+}
+.EachLink:hover {
+  background-color: hsl(202, 42%, 62%);
+  color: white;
+  padding-left: 1.5rem;
+}
+.active {
+  color: rgb(235, 10, 85);
+}
+.LinksContainer {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.FontIcon{
+  color: rgb(3, 40, 47);
+  font-size: 1.25rem;
+}
+@media screen and (min-width: 950px) {
+  .NavContainer {
+    max-width: 1150px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-  
-}
-.ToggleBtn{
-    border-color: transparent;
-    background-color: transparent;
-    font-size: 1.5rem;
-    color: rgb(21, 123, 232);
-    transition: all 0.3s linear;
-}
-.ToggleBtn:hover{
-    color: rgb(98, 162, 232);
-    transform: rotate(90deg);
-}
-li{
-    list-style: none;
-}
-.EachLink{
-    color: #023d9d;
-    font-size: 1.15rem;
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding: 0.5rem 1rem;
-    display: block;
-    transition: all 0.3s linear;
-}
-.EachLink:hover{
-background-color:hsl(202, 42%, 62%) ;
-color:white ;
-padding-left: 1.5rem;
-
-}
-.active{
-    color: rgb(235, 10, 85);
   }
-.LinksContainer{
-    height: 0;
-    overflow: hidden;
-    transition: all 0.3s linear;
-}
-@media screen and (min-width:950px) {
-    .NavContainer{
-        max-width: 1150px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
-    }
-    .NavLogo{
-        padding: 0;
-         
-    }
-  .Links{
+  .NavLogo {
+    padding: 0;
+  }
+  .Links {
     display: flex;
   }
-  .ToggleBtn{
+  .ToggleBtn {
     display: none;
   }
-  .LinksContainer{
+  .CartBtn,
+  .FontIcon {
+    display: inline;
+  }
+  .ThreeLinks {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .LinksContainer {
     height: auto !important;
   }
-  .EachLink{
+  .EachLink {
     padding: 0;
     margin: 0 0.5rem;
   }
-  .EachLink:hover{
+  .EachLink:hover {
     padding: 0;
     background: transparent;
-   transform: scaleX(1.1);
-  
+    transform: scaleX(1.1);
   }
-  .active{
+  .active {
     color: rgb(235, 10, 85);
   }
-
 }

@@ -1,0 +1,43 @@
+.MensProducts{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.5rem;
+    gap: 2rem;
+ align-items: center;
+ justify-content: center;
+}
+.FeatHead{
+  text-align: center;
+  margin-top: 2rem;
+}
+.Product{
+    border: 1px solid black;
+    padding: 0.65rem;
+    border-radius: 1.25rem;
+}
+.Image{
+    height: 18.5rem;
+    width: 18.5rem;
+    border-radius: 1.25rem;
+}
+.Company,.Item{
+    margin: 0.25rem;
+}
+.PriceCart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:1.25rem;
+    font-weight: 600;
+    color: rgb(229, 168, 88);
+}
+.cart{
+    background-color: rgb(61, 85, 88);
+    font-size: 1.25rem;
+    border-radius: 50%;
+    padding: 0.45rem;
+}
+.price{
+    font-size: 1.25rem;
+
+}
