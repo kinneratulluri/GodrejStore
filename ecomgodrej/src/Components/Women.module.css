@@ -1,4 +1,4 @@
-.FeatProducts{
+.WomenProducts{
     display: flex;
     flex-wrap: wrap;
     padding: 2.5rem;
@@ -6,7 +6,7 @@
  align-items: center;
  justify-content: center;
 }
-.FeatHead{
+.WomenHead{
   text-align: center;
   margin-top: 2rem;
 }

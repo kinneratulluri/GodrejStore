@@ -55,15 +55,15 @@ export const NavBar = () => {
           <div className={`${styles.ThreeLinks}`}>
             <div>
               <FaUser className={`${styles.FontIcon}`} />
-              <p>User</p>
+              
             </div>
             <div>
            <FaHeart className={`${styles.FontIcon}`}/>
-           <p>WishList</p>
+           
             </div>
             <div>
               <FaShoppingCart className={`${styles.FontIcon}`} />
-              <p>Cart</p>
+             
             </div>
             
             

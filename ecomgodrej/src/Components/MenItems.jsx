@@ -1,115 +1,108 @@
 import {  FaShoppingCart} from "react-icons/fa";
-export const FeaturedItems=[
+export const MenAssets=[
     {
         Company:'IndianGarrageCo',
         Itemname:'BlackShirt',
-        url:"/images/MensPageImg/blackShirt.png",
+        url:"/images/MensPageImg/blackshirt.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/MensPageImg/OsGrey.png',
+        Itemname:'BlackDottedShirt',
+        url:"/images/MensPageImg/blackdottedshirt.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/MensPageImg/Cargo1.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/floralShirt.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/MensPageImg/floralshirt.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/Cargo1.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/WomenAssets/Wjacket1.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/Cargo2.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/WomenAssets/Wjeans1.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/Cargo3.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/WomenAssets/Wplazo1.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/OsBlack.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/WomenAssets/Wskirt1.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/OsBlue.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/MensPageImg/shoes1.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/OsGrey.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/MensPageImg/Short1.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/shoes2.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/MensPageImg/Track4.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/shoes1.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/MensPageImg/shoes2.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/shoes3.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/WomenAssets/WTop1.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/short1.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/WomenAssets/Wjacket2.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/short2.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
     {
         Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/WomenAssets/Wplazo3.png',
+        Itemname:'FloralShirt',
+        url:"/images/MensPageImg/short3.png",
         price:'50$',
         cart:<FaShoppingCart/>
     },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:'/images/WomenAssets/Wjacket3.png',
-        price:'50$',
-        cart:<FaShoppingCart/>
-    }
 ]

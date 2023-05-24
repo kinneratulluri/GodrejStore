@@ -5,7 +5,7 @@ export const FeaturedProducts = () => {
   return (
    <>
     <h1 className={`${styles.FeatHead}`}>Featured Products</h1>
-   <section className={`${styles.MensProducts}`}>
+   <section className={`${styles.FeatProducts}`}>
     {FeaturedItems.map((item,index)=>{
         const {Company,Itemname,url,price,cart}=item;
         return (

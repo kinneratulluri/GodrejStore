@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from "../Components/Mens.module.css";
-import { MenAssets } from './MenItems';
- export const Mens = () => {
+import styles from "../Components/Women.module.css";
+import { WomenAssets } from './WomenItems';
+ export const Women = () => {
   return (
     <>
-    <h1 className={`${styles.MenHead}`}>Mens Products</h1>
-   <section className={`${styles.MenProducts}`}>
-    {MenAssets.map((item,index)=>{
+    <h1 className={`${styles.WomenHead}`}>Women Products</h1>
+   <section className={`${styles.WomenProducts}`}>
+    {WomenAssets.map((item,index)=>{
         const {Company,Itemname,url,price,cart}=item;
         return (
             <article key={index} className={`${styles.Product}`}>

@@ -6,19 +6,28 @@
   box-sizing: border-box;
 }
 nav {
-  background-color: rgb(200, 193, 193);
+  background-color:rgb(200, 193, 193);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+ 
 }
 
 .Logo {
   height: 3.5rem;
+}
+.NavContainer{
+  height: 6rem;
+  
 }
 .NavLogo {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+ 
 }
 .CartBtn
 {
@@ -42,6 +51,9 @@ nav {
 }
 li {
   list-style: none;
+}
+.Links{
+  background: white;
 }
 .EachLink {
   color: #023d9d;
@@ -71,6 +83,12 @@ li {
   font-size: 1.25rem;
 }
 @media screen and (min-width: 950px) {
+  nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
   .NavContainer {
     max-width: 1150px;
     margin: 0 auto;
@@ -78,12 +96,14 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+   
   }
   .NavLogo {
     padding: 0;
   }
   .Links {
     display: flex;
+    background: none;
   }
   .ToggleBtn {
     display: none;
