@@ -1,7 +1,20 @@
-import React from 'react'
+import React from "react";
+import { CartContainer } from "../Components/CartContainer";
+import { useCart } from "../Contexts/Cart-Context";
 
 export const Cartpage = () => {
-  return (
-    <div>Cartpage</div>
-  )
-}
+  const { loading } = useCart();
+  if (loading) {
+    return (
+      <>
+        <p>Loading....Pls Wait</p>
+      </>
+    );
+  } else {
+    return (
+      <>
+        <CartContainer />
+      </>
+    );
+  }
+};
