@@ -1,4 +1,4 @@
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart} from "react-icons/fa";
 export const MenAssets = [
   {
     id: 1,

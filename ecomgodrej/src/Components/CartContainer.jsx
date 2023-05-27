@@ -9,7 +9,7 @@ export const CartContainer = () => {
     return (
       <section className={`${styles.cart}`}>
         <header>
-          <h2>Your Bag is Empty!</h2>
+          <h2>Your Bag is Empty ! </h2>
         </header>
       </section>
     );

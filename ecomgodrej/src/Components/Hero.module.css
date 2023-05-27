@@ -36,11 +36,13 @@ p {
   background-attachment: fixed;
   background-repeat: no-repeat; 
   padding: 7.5rem 8.5rem;
+  
 }
 .HeroContent{
     position: absolute;
     top: 5rem;
     left: 1.5rem;
+    
 }
 .btn{
     font-size: 1.25rem;

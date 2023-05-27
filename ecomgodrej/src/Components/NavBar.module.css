@@ -27,7 +27,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  position: relative;
+  /* position: relative; */
  
 }
 .CartBtn
@@ -53,9 +53,9 @@ nav {
 .CartBar{
   display: flex;
   /* border: 1px solid red; */
-  position: absolute;
+  /* position: absolute;
   right: 4rem;
-  top: 2rem;
+  top: 2rem; */
 
 
 }

@@ -1,3 +1,6 @@
+/* .bg{
+    background-color:rgb(200, 193, 193);
+} */
 .FeatProducts{
     display: flex;
     flex-wrap: wrap;
@@ -5,6 +8,7 @@
     gap: 2rem;
  align-items: center;
  justify-content: center;
+ 
 }
 .FeatHead{
   text-align: center;
@@ -41,6 +45,10 @@
     border-radius: 50%;
     padding: 0.45rem;
     transition: 0.2s ease;
+    cursor: pointer;                                                                                                                                                            
+}
+.cart:hover{
+    transform: scale(1.1);
 }
 
 .price{

@@ -8,6 +8,9 @@ export const reducer = (state, action) => {
     if (!itemExist) {
       return { ...state, cart: [...cart, { ...item,quantity:1 }] };
     }
+    else{
+      alert("Already item is in cart")
+    }
     return { ...state };
   }
   if (action.type === "CLEAR_CART") {

@@ -7,6 +7,7 @@ import { WomensPage } from "./Pages/Womenspage";
 import { Aboutpage } from "./Pages/Aboutpage";
 import { Errorpage } from "./Pages/Errorpage";
 import { Cartpage } from "./Pages/Cartpage";
+import { Footerpage } from "./Pages/Footerpage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/cart" element={<Cartpage/>} />
         <Route path="/*" element={<Errorpage />} />
       </Routes>
+      <Footerpage/>
     </>
   );
 }

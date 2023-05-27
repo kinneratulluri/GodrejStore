@@ -7,7 +7,8 @@ export const FeaturedProducts = () => {
     const {addItem}=useCart();
   return (
    <>
-    <h1 className={`${styles.FeatHead}`}>Featured Products</h1>
+   <div  className={`${styles.bg}`}>
+   <h1 className={`${styles.FeatHead}`}>Featured Products</h1>
    <section className={`${styles.FeatProducts}`}>
     {FeaturedItems.map((item)=>{
         const {id,Company,Itemname,url,price,cart}=item;
@@ -24,6 +25,8 @@ export const FeaturedProducts = () => {
         )
     })}
    </section>
+   </div>
+    
    </>
   )
 }
