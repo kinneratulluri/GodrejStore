@@ -1,108 +1,138 @@
-import {  FaShoppingCart} from "react-icons/fa";
-export const MenAssets=[
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'BlackShirt',
-        url:"/images/MensPageImg/blackshirt.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'BlackDottedShirt',
-        url:"/images/MensPageImg/blackdottedshirt.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/floralShirt.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/Cargo1.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/Cargo2.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/Cargo3.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/OsBlack.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/OsBlue.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/OsGrey.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/shoes2.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/shoes1.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/shoes3.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/short1.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/short2.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'FloralShirt',
-        url:"/images/MensPageImg/short3.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-]
+import { FaShoppingCart } from "react-icons/fa";
+export const MenAssets = [
+  {
+    id: 1,
+    Company: "IndianGarrageCo",
+    Itemname: "BlackShirt",
+    url: "/images/MensPageImg/blackshirt.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 2,
+    Company: "IndianGarrageCo",
+    Itemname: "BlackDottedShirt",
+    url: "/images/MensPageImg/blackdottedshirt.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 3,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/floralShirt.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 4,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/Cargo1.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 5,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/Cargo2.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 6,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/Cargo3.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 7,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/OsBlack.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 8,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/OsBlue.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 9,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/OsGrey.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 10,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/shoes2.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 11,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/shoes1.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 12,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/shoes3.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 13,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/short1.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 14,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/short2.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 15,
+    Company: "IndianGarrageCo",
+    Itemname: "FloralShirt",
+    url: "/images/MensPageImg/short3.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+];

@@ -6,7 +6,8 @@ import { Menspage } from "./Pages/Menspage";
 import { WomensPage } from "./Pages/Womenspage";
 import { Aboutpage } from "./Pages/Aboutpage";
 import { Errorpage } from "./Pages/Errorpage";
-import { Kidspage } from "./Pages/Kidspage";
+import { Cartpage } from "./Pages/Cartpage";
+
 function App() {
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
         <Route path="/about" element={<Aboutpage />} />
         <Route path="/men" element={<Menspage />} />
         <Route path="/women" element={<WomensPage />} />
-        <Route path="/kids" element={<Kidspage/>} />
+        <Route path="/cart" element={<Cartpage/>} />
         <Route path="/*" element={<Errorpage />} />
       </Routes>
     </>

@@ -1,10 +1,13 @@
 import React from "react";
 import styles from "../Components/NavBar.module.css";
-import { FaBars, FaShoppingCart,FaUser,FaHeart} from "react-icons/fa";
+import { FaBars, FaShoppingCart, FaUser, FaHeart } from "react-icons/fa";
 import { useState, useRef, useEffect } from "react";
 import { Links } from "./Links";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
+import { useCart } from "../Contexts/Cart-Context";
 export const NavBar = () => {
+  const { quantity } = useCart();
   const [showlinks, setshowLinks] = useState(false);
   const linksContainerRef = useRef(null);
   const linkRef = useRef(null);
@@ -53,20 +56,20 @@ export const NavBar = () => {
             </ul>
           </div>
           <div className={`${styles.ThreeLinks}`}>
-            <div>
+            <div className={`${styles.user}`}>
               <FaUser className={`${styles.FontIcon}`} />
-              
             </div>
-            <div>
-           <FaHeart className={`${styles.FontIcon}`}/>
-           
+            <div className={`${styles.wishlist}`}>
+              <FaHeart className={`${styles.FontIcon}`} />
             </div>
-            <div>
-              <FaShoppingCart className={`${styles.FontIcon}`} />
-             
+            <div className={`${styles.CartBar}`}>
+              <Link to="/cart">
+                <FaShoppingCart className={`${styles.FontIcon}`} />
+              </Link>
+              <div className={`${styles.AmountContainer}`}>
+                <p className={`${styles.Amount}`}>{quantity}</p>
+              </div>
             </div>
-            
-            
           </div>
         </div>
       </nav>

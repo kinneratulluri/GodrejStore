@@ -6,11 +6,11 @@ import { WomenAssets } from './WomenItems';
     <>
     <h1 className={`${styles.WomenHead}`}>Women Products</h1>
    <section className={`${styles.WomenProducts}`}>
-    {WomenAssets.map((item,index)=>{
-        const {Company,Itemname,url,price,cart}=item;
+    {WomenAssets.map((item)=>{
+        const {id,Company,Itemname,url,price,cart}=item;
         return (
-            <article key={index} className={`${styles.Product}`}>
-               <img src={url} alt="loading"  className={`${styles.Image}`}/>
+            <article key={id} className={`${styles.Product}`}>
+               <img src={url} alt={Company}  className={`${styles.Image}`}/>
                <h3 className={`${styles.Company}`}>{Company}</h3>
                <h4 className={`${styles.Item}`}>{Itemname}</h4>
                <p className={`${styles.PriceCart}`}>

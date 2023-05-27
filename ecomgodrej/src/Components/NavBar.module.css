@@ -27,6 +27,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  position: relative;
  
 }
 .CartBtn
@@ -46,8 +47,17 @@ nav {
   color: rgb(98, 162, 232);
   transform: rotate(90deg);
 }
-.ThreeLinks {
+.user,.wishlist {
   display: none;
+}
+.CartBar{
+  display: flex;
+  /* border: 1px solid red; */
+  position: absolute;
+  right: 4rem;
+  top: 2rem;
+
+
 }
 li {
   list-style: none;
@@ -111,10 +121,30 @@ li {
   .CartBtn,
   .FontIcon {
     display: inline;
+    font-size: 1.75rem;
   }
-  .ThreeLinks {
+  .ThreeLinks,.user,.wishlist {
     display: flex;
     gap: 1.5rem;
+    text-align: center;
+  }
+  .CartBar{
+    display: block;
+    position: relative;
+  }
+  .AmountContainer{
+    position: absolute;
+    top: -0.95rem;
+    right: -0.85rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: hsl(205, 84%, 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Amount{
     text-align: center;
   }
   .LinksContainer {

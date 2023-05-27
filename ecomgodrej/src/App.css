@@ -3,3 +3,5 @@
 @import './Components/Hero.module.css';
 @import './Components/FeaturedProducts.module.css';
 @import './Components/Women.module.css';
+@import './Components/CartContainer.module.css';
+@import './Components/CartItem.module.css';

@@ -1,108 +1,139 @@
-import {  FaShoppingCart} from "react-icons/fa";
-export const WomenAssets=[
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wjacket1.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wjacket2.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wjacket3.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wjeans1.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wjeans2.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wjeans3.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wplazo1.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wplazo2.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wplazo3.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wskirt1.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wskirt2.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wskirt3.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/WTop1.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wtop2.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    },
-    {
-        Company:'IndianGarrageCo',
-        Itemname:'Jacket',
-        url:"/images/WomenAssets/Wtop3.png",
-        price:'50$',
-        cart:<FaShoppingCart/>
-    }
-]
+import { FaShoppingCart } from "react-icons/fa";
+export const WomenAssets = [
+  {
+    id: 1,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wjacket1.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+        quantity:1,
+  },
+  {
+    id: 2,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wjacket2.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 3,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wjacket3.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 4,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wjeans1.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 5,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wjeans2.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 6,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wjeans3.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,},
+    
+  {
+    id: 7,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wplazo1.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 8,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wplazo2.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 9,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wplazo3.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  
+  {
+    id: 10,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wskirt1.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 11,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wskirt2.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 12,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wskirt3.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 13,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/WTop1.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 14,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wtop2.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+  {
+    id: 15,
+    Company: "IndianGarrageCo",
+    Itemname: "Jacket",
+    url: "/images/WomenAssets/Wtop3.png",
+    price: "50$",
+    cart: <FaShoppingCart />,
+    quantity:1,
+  },
+];
