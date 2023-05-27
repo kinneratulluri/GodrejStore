@@ -29,12 +29,22 @@ export const NavBar = () => {
               alt="Logo"
               className={`${styles.Logo}`}
             />
-            <button
-              className={`${styles.ToggleBtn}`}
-              onClick={() => setshowLinks(!showlinks)}
-            >
-              {<FaBars />}
-            </button>
+            <div className={`${styles.hamburg}`}>
+            <div className={`${styles.CartBar}`}>
+              <Link to="/cart">
+                <FaShoppingCart className={`${styles.FontIcon}`} />
+              </Link>
+              <div className={`${styles.AmountContainer}`}>
+                <p className={`${styles.Amount}`}>{quantity}</p>
+              </div>
+            </div>
+              <button
+                className={`${styles.ToggleBtn}`}
+                onClick={() => setshowLinks(!showlinks)}
+              >
+                {<FaBars />}
+              </button>
+            </div>
           </div>
           <div className={`${styles.LinksContainer}`} ref={linksContainerRef}>
             <ul className={`${styles.Links}`} ref={linkRef}>

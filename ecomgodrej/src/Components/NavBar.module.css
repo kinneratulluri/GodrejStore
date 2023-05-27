@@ -30,11 +30,31 @@ nav {
   /* position: relative; */
  
 }
-.CartBtn
-{
-  font-size: 1.5rem;
-  color: rgb(21, 123, 232);
-  display: none;
+
+.CartBar{
+
+  position: relative;
+}
+.AmountContainer{
+  position: absolute;
+  top: -0.95rem;
+  right: -0.95rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: hsl(205, 84%, 74%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Amount{
+  text-align: center;
+}
+
+.hamburg{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 .ToggleBtn {
   border-color: transparent;
@@ -47,17 +67,8 @@ nav {
   color: rgb(98, 162, 232);
   transform: rotate(90deg);
 }
-.user,.wishlist {
+.ThreeLinks {
   display: none;
-}
-.CartBar{
-  display: flex;
-  /* border: 1px solid red; */
-  /* position: absolute;
-  right: 4rem;
-  top: 2rem; */
-
-
 }
 li {
   list-style: none;
@@ -108,6 +119,9 @@ li {
     padding: 1rem;
    
   }
+  .hamburg{
+    display: none;
+  }
   .NavLogo {
     padding: 0;
   }
@@ -118,7 +132,7 @@ li {
   .ToggleBtn {
     display: none;
   }
-  .CartBtn,
+  
   .FontIcon {
     display: inline;
     font-size: 1.75rem;
