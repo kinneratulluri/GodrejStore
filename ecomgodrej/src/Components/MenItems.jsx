@@ -3,7 +3,7 @@ export const MenAssets = [
   {
     id: 1,
     Company: "IndianGarrageCo",
-    Itemname: "BlackShirt",
+    Itemname: "casualShirt",
     url: "/images/MensPageImg/blackshirt.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -12,7 +12,7 @@ export const MenAssets = [
   {
     id: 2,
     Company: "IndianGarrageCo",
-    Itemname: "BlackDottedShirt",
+    Itemname: "casualShirt",
     url: "/images/MensPageImg/blackdottedshirt.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -21,7 +21,7 @@ export const MenAssets = [
   {
     id: 3,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "casualShirt",
     url: "/images/MensPageImg/floralShirt.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -30,7 +30,7 @@ export const MenAssets = [
   {
     id: 4,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "cargo",
     url: "/images/MensPageImg/Cargo1.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -39,7 +39,7 @@ export const MenAssets = [
   {
     id: 5,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "cargo",
     url: "/images/MensPageImg/Cargo2.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -48,7 +48,7 @@ export const MenAssets = [
   {
     id: 6,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "cargo",
     url: "/images/MensPageImg/Cargo3.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -57,7 +57,7 @@ export const MenAssets = [
   {
     id: 7,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "oversized",
     url: "/images/MensPageImg/OsBlack.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -66,7 +66,7 @@ export const MenAssets = [
   {
     id: 8,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "oversized",
     url: "/images/MensPageImg/OsBlue.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -75,7 +75,7 @@ export const MenAssets = [
   {
     id: 9,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "oversized",
     url: "/images/MensPageImg/OsGrey.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -84,7 +84,7 @@ export const MenAssets = [
   {
     id: 10,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "footwear",
     url: "/images/MensPageImg/shoes2.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -93,7 +93,7 @@ export const MenAssets = [
   {
     id: 11,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "footwear",
     url: "/images/MensPageImg/shoes1.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -102,7 +102,7 @@ export const MenAssets = [
   {
     id: 12,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "footwear",
     url: "/images/MensPageImg/shoes3.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -111,7 +111,7 @@ export const MenAssets = [
   {
     id: 13,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "short",
     url: "/images/MensPageImg/short1.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -120,7 +120,7 @@ export const MenAssets = [
   {
     id: 14,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "short",
     url: "/images/MensPageImg/short2.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -129,7 +129,7 @@ export const MenAssets = [
   {
     id: 15,
     Company: "IndianGarrageCo",
-    Itemname: "FloralShirt",
+    Itemname: "short",
     url: "/images/MensPageImg/short3.png",
     price: "50$",
     cart: <FaShoppingCart />,

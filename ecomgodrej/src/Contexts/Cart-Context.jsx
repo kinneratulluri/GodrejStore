@@ -1,7 +1,7 @@
 import React, {useContext, createContext, useReducer, useEffect } from "react";
 import { reducer } from "../Reducers/CartReducer";
-const AppContext = createContext();
-const AppProvider = ({ children }) => {
+const CartContext = createContext();
+const CartProvider = ({ children }) => {
   
   const initialState = {
     loading: false,
@@ -31,7 +31,7 @@ const AppProvider = ({ children }) => {
   dispatch({type:'GET_TOTALS'})
   },[state.cart])
   return (
-    <AppContext.Provider
+    <CartContext.Provider
       value={{
         ...state,
         clearcart,
@@ -41,12 +41,12 @@ const AppProvider = ({ children }) => {
       }}
     >
       {children}
-    </AppContext.Provider>
+    </CartContext.Provider>
   );
 };
 
 export const useCart = () => {
-  return useContext(AppContext);
+  return useContext(CartContext);
 };
 
-export { AppContext, AppProvider };
+export { CartContext, CartProvider };

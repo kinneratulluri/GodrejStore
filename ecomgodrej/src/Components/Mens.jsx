@@ -6,7 +6,7 @@ import { MenAssets } from './MenItems';
     <>
     <h1 className={`${styles.MenHead}`}>Mens Products</h1>
    <section className={`${styles.MenProducts}`}>
-    {MenAssets.map((item)=>{
+    { MenAssets.map((item)=>{
         const {id,Company,Itemname,url,price,cart}=item;
         return (
             <article key={id} className={`${styles.Product}`}>

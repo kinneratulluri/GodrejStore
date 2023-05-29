@@ -1,12 +1,14 @@
 import React from 'react'
 import styles from "../Components/Women.module.css";
-import { WomenAssets } from './WomenItems';
+// import { WomenAssets } from './WomenItems';
+import { useFilter } from '../Contexts/Filter-context';
  export const Women = () => {
+    const {tempcart}=useFilter();
   return (
     <>
     <h1 className={`${styles.WomenHead}`}>Women Products</h1>
    <section className={`${styles.WomenProducts}`}>
-    {WomenAssets.map((item)=>{
+    {tempcart.map((item)=>{
         const {id,Company,Itemname,url,price,cart}=item;
         return (
             <article key={id} className={`${styles.Product}`}>

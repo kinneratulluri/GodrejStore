@@ -3,7 +3,7 @@ export const WomenAssets = [
   {
     id: 1,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "jacket",
     url: "/images/WomenAssets/Wjacket1.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -30,7 +30,7 @@ export const WomenAssets = [
   {
     id: 4,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "jeans",
     url: "/images/WomenAssets/Wjeans1.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -39,7 +39,7 @@ export const WomenAssets = [
   {
     id: 5,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "jeans",
     url: "/images/WomenAssets/Wjeans2.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -48,7 +48,7 @@ export const WomenAssets = [
   {
     id: 6,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "jeans",
     url: "/images/WomenAssets/Wjeans3.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -57,7 +57,7 @@ export const WomenAssets = [
   {
     id: 7,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname:' plazo',
     url: "/images/WomenAssets/Wplazo1.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -66,7 +66,7 @@ export const WomenAssets = [
   {
     id: 8,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "plazo ",
     url: "/images/WomenAssets/Wplazo2.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -75,7 +75,7 @@ export const WomenAssets = [
   {
     id: 9,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "plazo",
     url: "/images/WomenAssets/Wplazo3.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -85,7 +85,7 @@ export const WomenAssets = [
   {
     id: 10,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "skirt",
     url: "/images/WomenAssets/Wskirt1.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -94,7 +94,7 @@ export const WomenAssets = [
   {
     id: 11,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "skirt",
     url: "/images/WomenAssets/Wskirt2.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -103,7 +103,7 @@ export const WomenAssets = [
   {
     id: 12,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "skirt",
     url: "/images/WomenAssets/Wskirt3.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -112,8 +112,8 @@ export const WomenAssets = [
   {
     id: 13,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
-    url: "/images/WomenAssets/WTop1.png",
+    Itemname: "top",
+    url: "/images/WomenAssets/Wtop1.png",
     price: "50$",
     cart: <FaShoppingCart />,
     quantity:1,
@@ -121,7 +121,7 @@ export const WomenAssets = [
   {
     id: 14,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "top",
     url: "/images/WomenAssets/Wtop2.png",
     price: "50$",
     cart: <FaShoppingCart />,
@@ -130,7 +130,7 @@ export const WomenAssets = [
   {
     id: 15,
     Company: "IndianGarrageCo",
-    Itemname: "Jacket",
+    Itemname: "top",
     url: "/images/WomenAssets/Wtop3.png",
     price: "50$",
     cart: <FaShoppingCart />,
