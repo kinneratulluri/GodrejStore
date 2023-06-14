@@ -9,7 +9,7 @@ import { filterreducer } from "../Reducers/FilterReducer";
 import { WomenAssets } from "../Components/WomenItems";
 const FilterContext = createContext();
 const FilterProvider = ({ children }) => {
-  const [searchTerm, setsearchTerm] = useState("");
+  const [searchTerm, setsearchTerm] = useState("search like jeans");
   const initialCart = {
      originalcart:WomenAssets,
      tempcart:[],

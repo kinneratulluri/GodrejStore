@@ -57,7 +57,7 @@ export const WomenAssets = [
   {
     id: 7,
     Company: "IndianGarrageCo",
-    Itemname:' plazo',
+    Itemname:'plazo',
     url: "/images/WomenAssets/Wplazo1.png",
     price: "50$",
     cart: <FaShoppingCart />,
