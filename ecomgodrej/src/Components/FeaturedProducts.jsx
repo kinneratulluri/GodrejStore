@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from "../Components/FeaturedProducts.module.css";
 import { FeaturedItems } from './HomePageArray';
-
+import { Link} from "react-router-dom";
 import { useCart } from '../Contexts/Cart-Context';
+
+
 export const FeaturedProducts = () => {
     const {addItem}=useCart();
   return (
@@ -14,7 +16,7 @@ export const FeaturedProducts = () => {
         const {id,Company,Itemname,url,price,cart}=item;
         return (
             <article key={id} className={`${styles.Product}`}>
-               <img src={url} alt={Company}  className={`${styles.Image}`}/>
+              <Link to={`/singleitem/${id}`} item={item}><img src={url} alt={Company}  className={`${styles.Image}`} /></Link>
                <h3 className={`${styles.Company}`}>{Company}</h3>
                <h4 className={`${styles.Item}`}>{Itemname}</h4>
                <p className={`${styles.PriceCart}`}>

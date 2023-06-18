@@ -16,7 +16,7 @@ const FilterProvider = ({ children }) => {
   }
   const [state, dispatch] = useReducer(filterreducer, initialCart);
 
-  console.log(state)
+  
   useEffect(() => {
     dispatch({ type: "FILTER", payload:{searchTerm}});
   },[searchTerm]);

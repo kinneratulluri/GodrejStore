@@ -8,6 +8,8 @@ import { Aboutpage } from "./Pages/Aboutpage";
 import { Errorpage } from "./Pages/Errorpage";
 import { Cartpage } from "./Pages/Cartpage";
 import { Footerpage } from "./Pages/Footerpage";
+import SingleItempage from "./Pages/SingleItempage";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path="/men" element={<Menspage />} />
         <Route path="/women" element={<WomensPage />} />
         <Route path="/cart" element={<Cartpage/>} />
+        <Route path="/singleitem/:itemId" element={<SingleItempage/>} />
         <Route path="/*" element={<Errorpage />} />
       </Routes>
       <Footerpage/>
