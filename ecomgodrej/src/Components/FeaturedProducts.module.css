@@ -1,6 +1,21 @@
 /* .bg{
     background-color:rgb(200, 193, 193);
 } */
+.container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 1rem;
+
+}
+.Filter{
+    /* border: 1px solid grey; */
+    padding: 1rem;
+   width: 20%;
+  
+}
+.bg{
+    width: 80%;
+}
 .FeatProducts{
     display: flex;
     flex-wrap: wrap;

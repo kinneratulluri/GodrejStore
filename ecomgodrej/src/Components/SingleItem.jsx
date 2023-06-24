@@ -3,8 +3,7 @@ import styles from "../Components/SingleItem.module.css";
 import { useParams } from "react-router-dom";
 import { FeaturedItems } from "./HomePageArray";
 import { useCart } from "../Contexts/Cart-Context";
-import { Link } from "react-router-dom";
-import { FaHome } from "react-icons/fa";
+
 const SingleItem = () => {
   const { addItem } = useCart();
   const { itemId } = useParams();

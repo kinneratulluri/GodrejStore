@@ -55,6 +55,7 @@ p {
     border-radius: 1.25rem;
     background-color: grey;
     transition: 0.2s ease;
+    margin-top: 1rem;
 }
 .btn:hover{
    transform: scale(1.1);

@@ -7,4 +7,5 @@
 @import './Components/CartItem.module.css';
 @import './Components/FooterContent.module.css';
 @import './Components/Filter.module.css';
+@import './Components/MainFilter.module.css';
 @import './Components/SingleItem.module.css';
