@@ -1,7 +1,11 @@
 import React from 'react'
 import styles from "../Components/Mens.module.css";
 import { MenAssets } from './MenItems';
+import { useCart } from "../Contexts/Cart-Context";
+
  export const Mens = () => {
+    const { addItem } = useCart();
+   
   return (
     <>
     <h1 className={`${styles.MenHead}`}>Mens Products</h1>
@@ -14,8 +18,13 @@ import { MenAssets } from './MenItems';
                <h3 className={`${styles.Company}`}>{Company}</h3>
                <h4 className={`${styles.Item}`}>{Itemname}</h4>
                <p className={`${styles.PriceCart}`}>
-                <span className={`${styles.price}`}>{price}  </span>
-                <span className={`${styles.cart}`}>{cart}</span>
+                <span className={`${styles.price}`}>Rs.{price}  </span>
+                <span
+                      className={`${styles.cart}`}
+                      onClick={() => addItem(item)}
+                    >
+                      {cart}
+                    </span>
                 </p>
             </article>
         )

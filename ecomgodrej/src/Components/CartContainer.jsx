@@ -32,7 +32,7 @@ export const CartContainer = () => {
               <footer>
                 <div className={`${styles.CartTotal}`}>
                   <h4>
-                    Total Amount : <span>${total}</span>
+                    Total Amount : <span>Rs.{total}</span>
                   </h4>
                 </div>
                 <button className={`${styles.clearBtn}`} onClick={clearcart}>
