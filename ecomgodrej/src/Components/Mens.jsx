@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from "../Components/Mens.module.css";
-import { MenAssets } from './MenItems';
-import { useCart } from "../Contexts/Cart-Context";
 
+import { useCart } from "../Contexts/Cart-Context";
+import { Link } from 'react-router-dom';
+import { FeaturedItems } from './HomePageArray';
  export const Mens = () => {
     const { addItem } = useCart();
-   
+    const MenAssets=FeaturedItems.filter((item)=>item.type==='men');
   return (
     <>
     <h1 className={`${styles.MenHead}`}>Mens Products</h1>
@@ -14,8 +15,14 @@ import { useCart } from "../Contexts/Cart-Context";
         const {id,Company,Itemname,url,price,cart}=item;
         return (
             <article key={id} className={`${styles.Product}`}>
-               <img src={url} alt={Company}  className={`${styles.Image}`}/>
-               <h3 className={`${styles.Company}`}>{Company}</h3>
+                <Link to={`/singleitem/${id}`} item={item}>
+                    <img
+                      src={url}
+                      alt={Company}
+                      className={`${styles.Image}`}
+                    />
+                  </Link>
+                  <h3 className={`${styles.Company}`}>{Company}<span> <Link to={`/singleitem/${id}`} ><button className={`${styles.viewit}`}>View Details</button></Link></span></h3>
                <h4 className={`${styles.Item}`}>{Itemname}</h4>
                <p className={`${styles.PriceCart}`}>
                 <span className={`${styles.price}`}>Rs.{price}  </span>

@@ -46,6 +46,17 @@
 .Company,.Item{
     margin: 0.25rem;
 }
+.viewit{
+    margin-left: 3rem;
+    border: 1px solid grey;
+    background: rgb(204, 193, 187);
+    border-radius: 2rem;
+    padding: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
 .PriceCart{
     display: flex;
     align-items: center;

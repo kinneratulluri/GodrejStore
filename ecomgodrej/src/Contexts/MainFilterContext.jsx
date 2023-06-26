@@ -5,7 +5,7 @@ import { Mainfilterreducer } from "../Reducers/MainFilterReducer";
 const MainFilterContext=createContext();
 const initialCartItems = {
     originalcart:FeaturedItems,
-    tempcart:[...FeaturedItems],
+    tempcart:[],
   
  }
  const MainFilterProvider=({children})=>{

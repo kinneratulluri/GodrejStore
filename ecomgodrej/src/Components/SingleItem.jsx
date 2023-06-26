@@ -3,7 +3,7 @@ import styles from "../Components/SingleItem.module.css";
 import { useParams } from "react-router-dom";
 import { FeaturedItems } from "./HomePageArray";
 import { useCart } from "../Contexts/Cart-Context";
-
+// import { MenAssets } from "./MenItems";
 const SingleItem = () => {
   const { addItem } = useCart();
   const { itemId } = useParams();
@@ -23,7 +23,7 @@ const SingleItem = () => {
         <div className={`${styles.itemdetails}`}>
           <h2>{Company}</h2>
           <h4>{Itemname}</h4>
-          <h4>${price}</h4>
+          <h4>Rs.{price}</h4>
      
           <button  onClick={()=>addItem(singleItem)} className={`${styles.cartBtn}`} >Add to Cart</button>
           

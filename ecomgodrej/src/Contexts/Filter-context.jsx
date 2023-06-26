@@ -6,9 +6,10 @@ import React, {
   useState,
 } from "react";
 import { filterreducer } from "../Reducers/FilterReducer";
-import { WomenAssets } from "../Components/WomenItems";
+import { FeaturedItems } from "../Components/HomePageArray";
 const FilterContext = createContext();
 const FilterProvider = ({ children }) => {
+  const WomenAssets=FeaturedItems.filter((item)=>item.type==='women');
   const [searchTerm, setsearchTerm] = useState("search like jeans");
   const initialCart = {
      originalcart:WomenAssets,

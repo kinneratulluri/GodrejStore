@@ -19,6 +19,17 @@
 .Product:hover{
     box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
+.viewit{
+    margin-left: 3rem;
+    border: 1px solid grey;
+    background: rgb(204, 193, 187);
+    border-radius: 2rem;
+    padding: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
 .Image{
     height: 18.5rem;
     width: 18.5rem;
