@@ -8,9 +8,9 @@ import { useMainFilter } from "../Contexts/MainFilterContext";
 
 export const FeaturedProducts = () => {
   const { addItem } = useCart();
-  let { tempcart,originalcart } = useMainFilter();
-  if(tempcart.length===0){
-    tempcart=originalcart.filter((item)=>item.id<=15);
+  let { tempcart, originalcart } = useMainFilter();
+  if (tempcart.length === 0) {
+    tempcart = originalcart.filter((item) => item.id <= 15);
   }
   return (
     <>
@@ -21,7 +21,7 @@ export const FeaturedProducts = () => {
 
         <div className={`${styles.bg}`}>
           <h1 className={`${styles.FeatHead}`}>Featured Products</h1>
-          <section className={`${styles.FeatProducts}`}>
+          <div className={`${styles.FeatProducts}`}>
             {tempcart.map((item) => {
               const { id, Company, Itemname, url, price, cart } = item;
               return (
@@ -33,8 +33,20 @@ export const FeaturedProducts = () => {
                       className={`${styles.Image}`}
                     />
                   </Link>
-                  <h3 className={`${styles.Company}`}>{Company}<span> <Link to={`/singleitem/${id}`} ><button className={`${styles.viewit}`}>View Details</button></Link></span></h3>
-                  
+                  <div className={`${styles.profiledetails}`}>
+                    <h3 className={`${styles.Company}`}>
+                      {Company}
+                    </h3>
+                      <div>
+                        {" "}
+                        <Link to={`/singleitem/${id}`}>
+                          <button className={`${styles.viewit}`}>
+                            View Details
+                          </button>
+                        </Link>
+                      </div>
+                  </div>
+
                   <h4 className={`${styles.Item}`}>{Itemname}</h4>
                   <p className={`${styles.PriceCart}`}>
                     <span className={`${styles.price}`}>Rs.{price} </span>
@@ -48,7 +60,7 @@ export const FeaturedProducts = () => {
                 </article>
               );
             })}
-          </section>
+          </div>
         </div>
       </div>
     </>

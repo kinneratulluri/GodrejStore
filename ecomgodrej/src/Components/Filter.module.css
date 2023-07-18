@@ -16,7 +16,8 @@
     padding: 0.5rem;
   border: 2px solid black;
 }
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 425px) {
 .FormControl{
     display: flex;
     flex-wrap: wrap;
@@ -24,4 +25,5 @@
     align-items: center;
     justify-content: center;
 }
+
 }
