@@ -10,6 +10,7 @@
   /* border: 1px solid grey; */
   padding: 1rem;
   width: 12.5%;
+  position: sticky;
 }
 .bg {
   width: 80%;

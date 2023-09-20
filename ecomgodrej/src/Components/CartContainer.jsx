@@ -2,8 +2,10 @@ import React from "react";
 import styles from "../Components/CartContainer.module.css";
 import { useCart } from "../Contexts/Cart-Context";
 import { CartItem } from "./CartItem";
+import { Link } from "react-router-dom";
 export const CartContainer = () => {
   const { cart, total, clearcart } = useCart();
+  
 
   if (cart.length === 0) {
     return (
@@ -38,6 +40,13 @@ export const CartContainer = () => {
                 <button className={`${styles.clearBtn}`} onClick={clearcart}>
                   Clear Cart
                 </button>
+                <button>
+                <Link to="/checkout">
+                <div className={`${styles.checkout}`} >Checkout</div>
+              </Link>
+                </button>
+                
+               
               </footer>
             </div>
           </div>

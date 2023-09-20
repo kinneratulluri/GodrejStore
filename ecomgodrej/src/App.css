@@ -1,3 +1,7 @@
+  *{
+    color: black;
+    box-sizing: border-box;
+  }
 @import './Components/NavBar.module.css';
 @import './Components/Mens.module.css';
 @import './Components/Hero.module.css';

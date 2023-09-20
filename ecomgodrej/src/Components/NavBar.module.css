@@ -80,7 +80,7 @@ li {
   background: white;
 }
 .EachLink {
-  /* color: white; */
+color: black;
   font-size: 1.15rem;
   font-weight: 400;
   text-decoration: none;
@@ -91,16 +91,17 @@ li {
 }
 .EachLink:hover {
   background-color: hsl(202, 42%, 62%);
-  color: rgb(125, 185, 228);
+  color: white;
   padding-left: 1.5rem;
 }
 .active {
-  color: rgb(235, 10, 85);
+  color: rgb(10, 235, 123);
 }
 .LinksContainer {
   height: 0;
   overflow: hidden;
   transition: all 0.3s linear;
+  color: white;
 }
 .FontIcon{
   color: white;
@@ -180,6 +181,6 @@ li {
     transform: scaleX(1.1);
   }
   .active {
-    color: rgb(235, 10, 85);
+    color: rgb(10, 235, 115);
   }
 }

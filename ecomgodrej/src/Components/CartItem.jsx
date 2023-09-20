@@ -11,9 +11,6 @@ export const CartItem = ({ id, Company, Itemname, url, price, quantity }) => {
         </div>
         <div className={`${styles.sideImgContent}`}>
           <div className={`${styles.ContentBox}`}>
-            <h3 className={`${styles.Company}`}>{Company}</h3>
-            <h4 className={`${styles.Item}`}> {Itemname}</h4>
-
             <p className={`${styles.price}`}>Price : Rs.{price} </p>
           </div>
 

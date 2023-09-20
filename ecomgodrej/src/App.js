@@ -9,6 +9,7 @@ import { Errorpage } from "./Pages/Errorpage";
 import { Cartpage } from "./Pages/Cartpage";
 import { Footerpage } from "./Pages/Footerpage";
 import SingleItempage from "./Pages/SingleItempage";
+import { Checkout } from "./Components/Checkout";
 // import AuthPage from "./Pages/AuthPage";
 
 
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/about" element={<Aboutpage />} />
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="/men" element={<Menspage />} />
         <Route path="/women" element={<WomensPage />} />
         <Route path="/cart" element={<Cartpage/>} />
