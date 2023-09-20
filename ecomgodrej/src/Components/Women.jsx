@@ -22,17 +22,28 @@ import { Link } from 'react-router-dom';
                       className={`${styles.Image}`}
                     />
                   </Link>
-                  <h3 className={`${styles.Company}`}>{Company}<span> <Link to={`/singleitem/${id}`} ><button className={`${styles.viewit}`}>View Details</button></Link></span></h3>
-               <h4 className={`${styles.Item}`}>{Itemname}</h4>
-               <p className={`${styles.PriceCart}`}>
-                <span className={`${styles.price}`}>RS.{price}  </span>
-                <span
-                      className={`${styles.cart}`}
-                      onClick={() => addItem(item)}
-                    >
-                      {cart}
-                    </span>
-                </p>
+                  <div className={`${styles.productdetails}`}>
+                    <div className={`${styles.details}`}>
+                      <div>
+                        <h3 className={`${styles.Company}`}>{Company}</h3>
+                      </div>
+
+                      <Link to={`/singleitem/${id}`}>
+                        <button className={`${styles.viewit}`}>View</button>
+                      </Link>
+                    </div>
+
+                    <h4 className={`${styles.Item}`}>{Itemname}</h4>
+                    <p className={`${styles.PriceCart}`}>
+                      <span className={`${styles.price}`}>Rs.{price} </span>
+                      <span
+                        className={`${styles.cart}`}
+                        onClick={() => addItem(item)}
+                      >
+                        {cart}
+                      </span>
+                    </p>
+                  </div>
             </article>
         )
     })}

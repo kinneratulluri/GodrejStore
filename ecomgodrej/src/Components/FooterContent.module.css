@@ -1,30 +1,43 @@
+*{
+    color: white;
+}
+
 .Footer{
-    background-color:rgb(200, 193, 193);
+    background-color:rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     align-items: center;
     justify-content: space-evenly;
-
+  color: white;
     padding: 1rem;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .Links{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
+.SocialLinks{
+    display: flex;
+    align-items: center;
+}
 .Head{
     margin-bottom: 1rem;
+    color: white;
 }
 .ContactInfo{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
+    color: white;
+}
+.Contact p{
+    color: white;
 }
 .store{
     width: 6.5rem;
@@ -39,3 +52,7 @@ a{
 .fonticon:hover{
     color: rgb(19, 19, 176);
 }
+.WebAvail h4,.WebAvail p{
+    color: white;
+}
+

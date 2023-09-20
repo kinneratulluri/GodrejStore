@@ -9,11 +9,13 @@ import { Errorpage } from "./Pages/Errorpage";
 import { Cartpage } from "./Pages/Cartpage";
 import { Footerpage } from "./Pages/Footerpage";
 import SingleItempage from "./Pages/SingleItempage";
+// import AuthPage from "./Pages/AuthPage";
 
 
 function App() {
   return (
-    <>
+    <> 
+    {/* <AuthPage/> */}
       <NavBar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />

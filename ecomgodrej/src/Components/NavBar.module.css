@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 nav {
-  background-color:rgb(200, 193, 193);
+  /* background-color:rgb(200, 193, 193); */
+  /* background: rgb(9, 9, 53); */
+  background: #000;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -34,6 +36,7 @@ nav {
 .CartBar{
 
   position: relative;
+  color: white;
 }
 .AmountContainer{
   position: absolute;
@@ -60,7 +63,7 @@ nav {
   border-color: transparent;
   background-color: transparent;
   font-size: 1.5rem;
-  color: rgb(21, 123, 232);
+  color: white;
   transition: all 0.3s linear;
 }
 .ToggleBtn:hover {
@@ -77,7 +80,7 @@ li {
   background: white;
 }
 .EachLink {
-  color: #023d9d;
+  /* color: white; */
   font-size: 1.15rem;
   font-weight: 400;
   text-decoration: none;
@@ -88,7 +91,7 @@ li {
 }
 .EachLink:hover {
   background-color: hsl(202, 42%, 62%);
-  color: white;
+  color: rgb(125, 185, 228);
   padding-left: 1.5rem;
 }
 .active {
@@ -100,7 +103,7 @@ li {
   transition: all 0.3s linear;
 }
 .FontIcon{
-  color: rgb(3, 40, 47);
+  color: white;
   font-size: 1.25rem;
 }
 @media screen and (min-width: 950px) {
@@ -128,14 +131,16 @@ li {
   .Links {
     display: flex;
     background: none;
+  
   }
   .ToggleBtn {
     display: none;
   }
-  
+
   .FontIcon {
     display: inline;
     font-size: 1.75rem;
+    color: white;
   }
   .ThreeLinks,.user,.wishlist {
     display: flex;
@@ -167,6 +172,7 @@ li {
   .EachLink {
     padding: 0;
     margin: 0 0.5rem;
+    color: white;
   }
   .EachLink:hover {
     padding: 0;

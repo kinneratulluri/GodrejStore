@@ -26,13 +26,20 @@ export const Footer = () => {
               <strong>Hours:</strong>10:00 - 18:00, Mon - Sat
             </p>
           </div>
-          <div className={`${styles.SocialLinks}`}>
-            <h4 className={`${styles.Head}`}>Follow Us</h4>
+          <div className={`${styles.SLinks}`}>
+
+        
+          <div>
+          <h4 className={`${styles.Head}`}>Follow Us</h4>
+          </div>
+            
+            <div className={`${styles.SocialLinks}`}>
             <FaFacebook className={`${styles.fonticon}`}/>
             <FaInstagram className={`${styles.fonticon}`} />
             <FaTwitter className={`${styles.fonticon}`} />
             <FaPinterest className={`${styles.fonticon}`}/>
             <FaYoutube className={`${styles.fonticon}`}/>
+          </div>
           </div>
         </div>
 

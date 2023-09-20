@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../Components/FeaturedProducts.module.css";
 // import { FeaturedItems } from './HomePageArray';
+import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useCart } from "../Contexts/Cart-Context";
 import { MainFilter } from "./MainFilter";
@@ -10,8 +11,9 @@ export const FeaturedProducts = () => {
   const { addItem } = useCart();
   let { tempcart, originalcart } = useMainFilter();
   if (tempcart.length === 0) {
-    tempcart = originalcart.filter((item) => item.id <= 15);
+    tempcart = originalcart.filter((item) => item.id <= 9);
   }
+
   return (
     <>
       <div className={`${styles.container}`}>
@@ -33,30 +35,28 @@ export const FeaturedProducts = () => {
                       className={`${styles.Image}`}
                     />
                   </Link>
-                  <div className={`${styles.profiledetails}`}>
-                    <h3 className={`${styles.Company}`}>
-                      {Company}
-                    </h3>
+                  <div className={`${styles.productdetails}`}>
+                    <div className={`${styles.details}`}>
                       <div>
-                        {" "}
-                        <Link to={`/singleitem/${id}`}>
-                          <button className={`${styles.viewit}`}>
-                            View Details
-                          </button>
-                        </Link>
+                        <h3 className={`${styles.Company}`}>{Company}</h3>
                       </div>
-                  </div>
 
-                  <h4 className={`${styles.Item}`}>{Itemname}</h4>
-                  <p className={`${styles.PriceCart}`}>
-                    <span className={`${styles.price}`}>Rs.{price} </span>
-                    <span
-                      className={`${styles.cart}`}
-                      onClick={() => addItem(item)}
-                    >
-                      {cart}
-                    </span>
-                  </p>
+                      <Link to={`/singleitem/${id}`}>
+                        <button className={`${styles.viewit}`}>View</button>
+                      </Link>
+                    </div>
+
+                    <h4 className={`${styles.Item}`}>{Itemname}</h4>
+                    <p className={`${styles.PriceCart}`}>
+                      <span className={`${styles.price}`}>Rs.{price} </span>
+                      <span
+                        className={`${styles.cart}`}
+                        onClick={() => addItem(item)}
+                      >
+                        {cart}
+                      </span>
+                    </p>
+                  </div>
                 </article>
               );
             })}

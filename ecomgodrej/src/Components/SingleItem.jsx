@@ -21,7 +21,7 @@ const SingleItem = () => {
           <img src={url} alt={Itemname} className={`${styles.img}`}/>
         </div>
         <div className={`${styles.itemdetails}`}>
-          <h2>{Company}</h2>
+          <h2 className={`${styles.companyname}`}>{Company}</h2>
           <h4>{Itemname}</h4>
           <h4>Rs.{price}</h4>
      

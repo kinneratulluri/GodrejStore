@@ -24,7 +24,7 @@ export const Mainfilterreducer=(state,action)=>{
     return {...state,tempcart:[...state.originalcart.filter((item)=>item.delivery==='fast')]}
   }
   else if(action.type==='CLEAR'){
-    return {...state,tempcart:[...state.originalcart]}
+    return {...state,tempcart:[]}
   }
    return {...state}
      

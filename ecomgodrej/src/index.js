@@ -7,18 +7,21 @@ import { BrowserRouter } from "react-router-dom";
 import { CartProvider } from "./Contexts/Cart-Context";
 import { FilterProvider } from "./Contexts/Filter-context";
 import { MainFilterProvider } from "./Contexts/MainFilterContext";
+import { ChakraProvider } from "@chakra-ui/react";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <MainFilterProvider>
-        <FilterProvider>
-          <CartProvider>
-            <App />
-          </CartProvider>
-        </FilterProvider>
-      </MainFilterProvider>
-    </BrowserRouter>
+    <ChakraProvider>
+      <BrowserRouter>
+        <MainFilterProvider>
+          <FilterProvider>
+            <CartProvider>
+              <App />
+            </CartProvider>
+          </FilterProvider>
+        </MainFilterProvider>
+      </BrowserRouter>
+    </ChakraProvider>
   </React.StrictMode>
 );
 

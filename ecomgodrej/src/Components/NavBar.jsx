@@ -30,14 +30,14 @@ export const NavBar = () => {
               className={`${styles.Logo}`}
             />
             <div className={`${styles.hamburg}`}>
-            <div className={`${styles.CartBar}`}>
-              <Link to="/cart">
-                <FaShoppingCart className={`${styles.FontIcon}`} />
-              </Link>
-              <div className={`${styles.AmountContainer}`}>
-                <p className={`${styles.Amount}`}>{quantity}</p>
+              <div className={`${styles.CartBar}`}>
+                <Link to="/cart">
+                  <FaShoppingCart className={`${styles.FontIcon}`} />
+                </Link>
+                <div className={`${styles.AmountContainer}`}>
+                  <p className={`${styles.Amount}`}>{quantity}</p>
+                </div>
               </div>
-            </div>
               <button
                 className={`${styles.ToggleBtn}`}
                 onClick={() => setshowLinks(!showlinks)}
