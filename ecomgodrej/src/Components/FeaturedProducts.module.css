@@ -82,10 +82,10 @@
 .price {
   font-size: 1.25rem;
 }
-.productdetails {
+/* .productdetails {
   display: flex;
   flex-direction: column;
-}
+} */
 .details {
   display: flex;
   padding-top: 1rem;

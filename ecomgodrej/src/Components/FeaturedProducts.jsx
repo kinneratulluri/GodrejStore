@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../Components/FeaturedProducts.module.css";
 // import { FeaturedItems } from './HomePageArray';
-import { FaBars } from "react-icons/fa";
+// import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useCart } from "../Contexts/Cart-Context";
 import { MainFilter } from "./MainFilter";
