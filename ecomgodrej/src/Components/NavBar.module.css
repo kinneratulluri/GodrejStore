@@ -6,9 +6,8 @@
   box-sizing: border-box;
 }
 nav {
-  /* background-color:rgb(200, 193, 193); */
-  /* background: rgb(9, 9, 53); */
-  background: #000;
+ 
+  background: rgb(197, 171, 180);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -95,7 +94,7 @@ color: black;
   padding-left: 1.5rem;
 }
 .active {
-  color: rgb(10, 235, 123);
+  color: rgb(3, 56, 108);
 }
 .LinksContainer {
   height: 0;
@@ -147,6 +146,7 @@ color: black;
     display: flex;
     gap: 1.5rem;
     text-align: center;
+    align-items: center;
   }
   .CartBar{
     display: block;
@@ -181,6 +181,14 @@ color: black;
     transform: scaleX(1.1);
   }
   .active {
-    color: rgb(10, 235, 115);
+    color: rgb(3, 56, 108);
   }
+  .user{
+    cursor: pointer;
+ 
+  }
+ .logout{
+  color: black;
+ }
+
 }

@@ -26,4 +26,14 @@ export const Links=[
         url: '/kids',
         text: 'Kids',
       },
+      // {
+      //   id:6,
+      //   url:'/register',
+      //   text:"Register",
+      // },
+      // {
+      //   id:7,
+      //   url:'/login',
+      //   text:"Login",
+      // }
 ]
