@@ -12,7 +12,11 @@ connectDB();
 let port = process.env.PORT||8080;
 
 //middlewares
-app.use(cors())
+app.use(cors({
+    origin: [""],
+    methods: ["POST", "GET"],
+    credentials: true
+}))
 app.use(express.json())
 app.use(morgan('dev'))
 
