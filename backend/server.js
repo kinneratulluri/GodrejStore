@@ -9,7 +9,7 @@ const app=express();
 dotenv.config();
 
 connectDB();
-let port = process.env.PORT||8080;
+let port = process.env.G_PORT||8080;
 
 //middlewares
 app.use(cors({
