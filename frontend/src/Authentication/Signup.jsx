@@ -26,7 +26,7 @@ const Signup = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://godrej-store.vercel.app/register", {
+      const res = await axios.post("/register", {
         name,
         email,
         password,

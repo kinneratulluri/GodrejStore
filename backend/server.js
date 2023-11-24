@@ -12,11 +12,7 @@ connectDB();
 let port = process.env.G_PORT||8080;
 
 //middlewares
-app.use(cors({
-    origin: ["https://godrej-store-frontend.vercel.app"],
-    methods: ["POST", "GET"],
-    credentials: true
-}))
+app.use(cors())
 app.use(express.json())
 app.use(morgan('dev'))
 

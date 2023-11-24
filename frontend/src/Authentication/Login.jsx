@@ -24,7 +24,7 @@ export const Login = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
    try {
-    const res=await axios.post("https://godrej-store.vercel.app/login",{email,password});
+    const res=await axios.post("/login",{email,password});
     if(res && res.data.success){
       toast.success(res.data.message);
       setAuth({
