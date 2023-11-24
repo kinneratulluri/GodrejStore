@@ -36,7 +36,7 @@ const Signup = () => {
       });
       if (res.data.success) {
         toast.success(res.data.message);
-        navigate("https://godrej-store-frontend.vercel.app/login");
+        navigate("https://godrej-store.vercel.app/login");
       } else {
         toast.error(res.data.message);
       }
