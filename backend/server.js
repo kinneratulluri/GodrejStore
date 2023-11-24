@@ -21,7 +21,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 
 //routes
-app.use('https://godrej-store.vercel.app/api/v1/auth',authRoutes);
+app.use('/',authRoutes);
 
 //rest api
 app.get('/',(req,res)=>{

@@ -26,7 +26,7 @@ const Signup = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://godrej-store.vercel.app/api/v1/auth/register", {
+      const res = await axios.post("https://godrej-store.vercel.app/register", {
         name,
         email,
         password,
@@ -36,7 +36,7 @@ const Signup = () => {
       });
       if (res.data.success) {
         toast.success(res.data.message);
-        navigate("/login");
+        navigate("https://godrej-store-frontend.vercel.app/login");
       } else {
         toast.error(res.data.message);
       }
