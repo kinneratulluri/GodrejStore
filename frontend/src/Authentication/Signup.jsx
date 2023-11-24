@@ -26,7 +26,7 @@ const Signup = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/register", {
+      const res = await axios.post("https://godrejstorebackend.onrender.com/register", {
         name,
         email,
         password,

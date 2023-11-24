@@ -22,7 +22,7 @@ export const Forgotpassword = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/api/v1/auth/forgot-password", {
+      const res = await axios.post("https://godrejstorebackend.onrender.com/forgot-password", {
         email,
         newpassword,
         answer,
