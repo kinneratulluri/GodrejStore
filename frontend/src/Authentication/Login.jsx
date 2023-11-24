@@ -33,7 +33,7 @@ export const Login = () => {
         token:res.data.token,
       })
       localStorage.setItem('auth',JSON.stringify(res.data))
-         navigate('https://godrej-store.vercel.app/');
+         navigate('/');
     }else{
       toast.error(res.data.message)
   
